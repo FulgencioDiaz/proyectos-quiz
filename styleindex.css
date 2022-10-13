@@ -1,6 +1,7 @@
 body{
     font-family:'Bebas Neue';
-    background-color: bisque;
+    background-color: #A599B5;
+    color: #051014;
 
 }
 div{
@@ -13,6 +14,10 @@ h1 {
     
     font-size: 38px;
     margin-top: 190px;
+    background-color: rgba(19, 20, 41, 0.65);
+    padding: 25px;
+    border-radius: 22px;
+    border: grey 6px solid;
 
 }
 
@@ -20,9 +25,157 @@ a { text-decoration: none;
 
 }
 
+img {
+    width: 200px;
+
+}
+
+ 
+.animated-shadow {
+
+  color: #ffffff;
+
+  font:  37px 'Bebas Neue' Round;
+
+  height: 55px;
+
+  left: 0;
+
+  letter-spacing: 5px;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  width: 80%;
+
+  animation: move linear 2000ms infinite;
+
+  z-index: 2
+}
+
+@keyframes move {
+
+  0% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+    -1px 1px 0 #13f1fc
+
+    ;
+  }
+
+  25% {
+
+    text-shadow:
+
+      -4px -4px 0 #13f1fc,
+
+      -3px -3px 0 #13f1fc,
+
+      -2px -2px 0 #13f1fc,
+
+      -1px -1px 0 #13f1fc,
+
+      4px 4px 0 #da0641,
+
+      3px 3px 0 #da0641,
+
+      2px 2px 0 #da0641,
+
+      1px 1px 0 #da0641
+
+    ;
+
+  }
+
+  50% {
+
+    text-shadow:
+
+      -4px 4px 0 #da0641,
+
+      -3px 3px 0 #da0641,
+
+      -2px 2px 0 #da0641,
+
+      -1px 1px 0 #da0641,
+
+      4px -4px 0 #13f1fc,
+
+      3px -3px 0 #13f1fc,
+
+      2px -2px 0 #13f1fc,
+
+      1px -1px 0 #13f1fc
+    ;
+
+  }
+
+  75% {
+
+    text-shadow:
+
+      4px 4px 0 #13f1fc,
+
+      3px 3px 0 #13f1fc,
+
+      2px 2px 0 #13f1fc,
+
+      1px 1px 0 #13f1fc,
+
+      -4px -4px 0 #da0641,
+
+      -3px -3px 0 #da0641,
+      -2px -2px 0 #da0641,
+
+      -1px -1px 0 #da0641
+
+    ;
+
+  }
+
+  100% {
+
+    text-shadow:
+
+      4px -4px 0 #da0641,
+
+      3px -3px 0 #da0641,
+
+      2px -2px 0 #da0641,
+
+      1px -1px 0 #da0641,
+
+      -4px 4px 0 #13f1fc,
+
+      -3px 3px 0 #13f1fc,
+
+      -2px 2px 0 #13f1fc,
+
+      -1px 1px 0 #13f1fc
+
+    ;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) { 
     h1{
-        font-size: 28px;
+        font-size: 22.5px;
     
 }
 }
