@@ -84,6 +84,7 @@ button:hover{
     ol{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        font-size: 26px;
     }
 
     fieldset{
