@@ -15,10 +15,11 @@ h1 {
     font-size: 38px;
     margin-top: 190px;
     background-color: rgba(19, 20, 41, 0.65);
-    padding: 25px;
+    padding: 44px;
     border-radius: 22px;
     border: grey 6px solid;
 
+  
 }
 
 a { text-decoration: none;
@@ -35,7 +36,7 @@ img {
 
   color: #ffffff;
 
-  font:  37px 'Bebas Neue' Round;
+  font:  33px 'Bebas Neue' Round;
 
   height: 55px;
 
@@ -47,11 +48,11 @@ img {
 
   text-transform: uppercase;
 
-  width: 80%;
+  width: 100%;
 
   animation: move linear 2000ms infinite;
 
-  z-index: 2
+
 }
 
 @keyframes move {

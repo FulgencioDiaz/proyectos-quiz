@@ -89,9 +89,34 @@
             </fieldset>
 
             <div class="button-wrapper">
-                <button type="submit"> Mandar respuestas</button>
+                <button class="buto" type="submit"> Mandar respuestas</button>
             </div>
             
     </form>
+    <script>
+       const btn = document.querySelector('.buto')
+
+       const respuestas = {
+         cascabeles: 'doce',
+         pelicula: 'ruiseñor',
+         actor: 'torrente',
+         instrumento: 'voz',
+         nombre: 'joselito'
+
+       }
+       
+       btn.addEventListener('click',function(e){
+        e.preventDefault();
+
+        if (e.target.value === respuestas.cascabeles || respuestas.pelicula || respuestas.actor || respuestas.instrumento || respuestas.nombre){
+        }
+    }
+       ) 
+
+       
+
+       
+    </script>
+</body>
 </body>
 </html>
